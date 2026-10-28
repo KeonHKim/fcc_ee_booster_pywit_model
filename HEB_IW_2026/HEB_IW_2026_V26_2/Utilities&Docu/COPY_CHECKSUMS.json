@@ -1,0 +1,534 @@
+{
+  "files": [
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/Z_total_long_v26_2.txt",
+      "release": "Impedances/Total/Z_total_long_v26_2.txt",
+      "size": 315321,
+      "sha256": "8c4635682c6a3ec70e201813fbf49bc8a96511e430db1ba83c9bd9bccbb6b2a5"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_budget_long.csv",
+      "release": "Impedances/Devices/HEB_V26_2_all_component_budget_long.csv",
+      "size": 1012507,
+      "sha256": "24a000f81b9d0793fb65bb44ec8082f9c19a392aa4bb47c89af2c1cc47e6478a"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/W_total_long_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Total/W_total_long_sigma0p4mm_v26_2.txt",
+      "size": 65703,
+      "sha256": "68f837a2110ed3a177852b080cdfa0c72aa65e879a4cc43ee51284761f7a98ad"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_wakes_long_sigma0p4mm.csv",
+      "release": "Wakes/Devices/HEB_V26_2_all_component_wakes_long_sigma0p4mm.csv",
+      "size": 229812,
+      "sha256": "47171857d282dbcaed8c8ac46192adc2803b18b9bc7e2125db4f5c3f43344955"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_long_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_long_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "size": 315180,
+      "sha256": "2a4948f0d45d225b61a6c6c901a9da6202eca5e57a83fc11ebaac12ad3c69830"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_long_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_long_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "size": 176914,
+      "sha256": "ed6e78e6781082e17646ed5a3d27c569a5fe4a8882ada6353d52869b1b471f9f"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/W_long_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ResistiveWall/W_long_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "size": 64931,
+      "sha256": "c7acc1ba0ae2fe838e41abb315bf02ff75a3f3a15c1bb8f595eefa3d03af762d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/Z_long_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "release": "Impedances/Devices/ExtractionKicker/Z_long_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "size": 315525,
+      "sha256": "e3e0e76a87e73b92e64e38a546d1bcd4b0cd69de88f79ec1f55c191a128a7c85"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/W_long_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ExtractionKicker/W_long_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "size": 65949,
+      "sha256": "8437ae47cece8cc6106d7e7d89c00eed9d47542c25847038bc023d477857968d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/Z_total_dipx_beta_weighted_v26_2.txt",
+      "release": "Impedances/Total/Z_total_dipx_beta_weighted_v26_2.txt",
+      "size": 315496,
+      "sha256": "078d8d04ba7e17d887f8571210426b7489bbeef4b05a98dab35e58f433634850"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_budget_dipx.csv",
+      "release": "Impedances/Devices/HEB_V26_2_all_component_budget_dipx.csv",
+      "size": 1118493,
+      "sha256": "30193ed7be7fe3ada1aa9df829af9dee68c7ccdfdfd6f9780e46f9350edbc08c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/W_total_dipx_beta_weighted_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Total/W_total_dipx_beta_weighted_sigma0p4mm_v26_2.txt",
+      "size": 64919,
+      "sha256": "bdea73f64e99258d5f6b8e3ad575b5077e4643bfed92ca635855cb2770cfdc20"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_wakes_dipx_sigma0p4mm.csv",
+      "release": "Wakes/Devices/HEB_V26_2_all_component_wakes_dipx_sigma0p4mm.csv",
+      "size": 233813,
+      "sha256": "562ef7e9e52781817addfdadd883e0e1644b57320c197a04c19274b4f7921678"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_dipx_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_dipx_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "size": 315192,
+      "sha256": "d1863099abd5dbe573a8ba292a0b1f1f0d19992817e05d1e16cc34c67288c78b"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_dipx_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_dipx_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "size": 176926,
+      "sha256": "530b55723b55ec670e99c99fc298b7bf8e9cd764902517881feecaeafa21d344"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/W_dipx_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ResistiveWall/W_dipx_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "size": 64904,
+      "sha256": "0aa656cb9b1f1f1ca90705abb78df01f9f3435b418ecf566776252b08b00881c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/Z_dipx_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "release": "Impedances/Devices/ExtractionKicker/Z_dipx_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "size": 315717,
+      "sha256": "f1e0c1baffbb22cabfa2ec85e95359e7ddf172fd7575146c5b6bf169f9222271"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/W_dipx_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ExtractionKicker/W_dipx_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "size": 64788,
+      "sha256": "5e5804457881f0a21dec43d0a583f2dffaed83ddda4509e9571dd1aa71bd14ad"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/Z_total_dipy_beta_weighted_v26_2.txt",
+      "release": "Impedances/Total/Z_total_dipy_beta_weighted_v26_2.txt",
+      "size": 315479,
+      "sha256": "6b535abd0809f0f97636a1474614fdf28736551790498e14e965c8d42a783419"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_budget_dipy.csv",
+      "release": "Impedances/Devices/HEB_V26_2_all_component_budget_dipy.csv",
+      "size": 1116693,
+      "sha256": "e9ae8fe45679e790d4682b5a219fc0cce00cfdb162223d8a925feef281e1c0cc"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/W_total_dipy_beta_weighted_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Total/W_total_dipy_beta_weighted_sigma0p4mm_v26_2.txt",
+      "size": 64917,
+      "sha256": "e0fd87a1a3c5e4589449e8cb1c286592726fb39a151ebb86f40764464c578d46"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_all_component_wakes_dipy_sigma0p4mm.csv",
+      "release": "Wakes/Devices/HEB_V26_2_all_component_wakes_dipy_sigma0p4mm.csv",
+      "size": 233197,
+      "sha256": "0ee3e98cc2a6ab72168a580494ad0d57443dd4a3607648f923b472c59bea94e3"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_dipy_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_dipy_RW_GoldTL_Rq0p3um_v26_2.txt",
+      "size": 315192,
+      "sha256": "d1863099abd5dbe573a8ba292a0b1f1f0d19992817e05d1e16cc34c67288c78b"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/Z_dipy_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "release": "Impedances/Devices/ResistiveWall/Z_dipy_RW_GoldTL_Rq0p3um_high_10THz_v26_2.txt",
+      "size": 176926,
+      "sha256": "530b55723b55ec670e99c99fc298b7bf8e9cd764902517881feecaeafa21d344"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/elliptic_elements/base_30mm/neg150nm/v26_2_GoldTL_Rq0p3um/W_dipy_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ResistiveWall/W_dipy_RW_GoldTL_sigma0p4mm_v26_2.txt",
+      "size": 64904,
+      "sha256": "0aa656cb9b1f1f1ca90705abb78df01f9f3435b418ecf566776252b08b00881c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/Z_dipy_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "release": "Impedances/Devices/ExtractionKicker/Z_dipy_optimizedKicker_HEB_4p18m_v26_2.txt",
+      "size": 315677,
+      "sha256": "b93eb08b9ba0fedcf350da75fa6e4b8a6530f19680e6a646fb0b4a049eb42bae"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/kickers/HEB_v26_2_4p18m/W_dipy_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "release": "Wakes/Devices/ExtractionKicker/W_dipy_optimizedKicker_HEB_4p18m_sigma0p4mm_v26_2.txt",
+      "size": 64788,
+      "sha256": "dc78d2ae83fdf2663d8aaae613c381a27c020acd8b3369a6e16cf64f8ed11bc3"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_sigma0p4mm_PyHEADTAIL.ecsv",
+      "release": "Wakes/Total/HEB_V26_2_sigma0p4mm_PyHEADTAIL.ecsv",
+      "size": 130709,
+      "sha256": "0894f2bc7d6c4f696552d582cd5d8aec7d17843217f0059157675caac2f67e39"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_EXPORT_MANIFEST.json",
+      "release": "Utilities&Docu/HEB_V26_2_EXPORT_MANIFEST.json",
+      "size": 3803,
+      "sha256": "f71016756fd412e67674974b8827930de60654cfddbe28f4b5005a2d84df57ab"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_inventory.csv",
+      "release": "Utilities&Docu/HEB_V26_2_inventory.csv",
+      "size": 407,
+      "sha256": "449bf8e1c6900922684b86df80a336a996535a962c78e3f9a0b869ee77387808"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_source_provenance.csv",
+      "release": "Utilities&Docu/HEB_V26_2_source_provenance.csv",
+      "size": 2566,
+      "sha256": "fd93b38e087176f9b355e5570c4138aa8c545d5dfe7b120f0a0524dab2693b18"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_locations_RF.csv",
+      "release": "Utilities&Docu/HEB_V26_2_locations_RF.csv",
+      "size": 7913,
+      "sha256": "098de494c556c5aba90bfc1742a3456d2d32d77f00e4c75d1e414483c12e7191"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_locations_BPM.csv",
+      "release": "Utilities&Docu/HEB_V26_2_locations_BPM.csv",
+      "size": 192527,
+      "sha256": "3153b2c0ba4bd27de7ccaf1a7a058e63c78e591de7d0ae51dc565275cfc03aa1"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/total/v26_2/HEB_V26_2_locations_Wiggler.csv",
+      "release": "Utilities&Docu/HEB_V26_2_locations_Wiggler.csv",
+      "size": 660,
+      "sha256": "4f97d2d854cd4c3fd228eeb842fe69d2817193e6afc4f82d5295672b0d7671ed"
+    },
+    {
+      "source": "figures/v26_2/wake_dipx_0p4mm_v26_2.png",
+      "release": "Plots/wake_dipx_0p4mm_v26_2.png",
+      "size": 96364,
+      "sha256": "7b7a03b491d6de4c155cabcd30c8a22df26dd279c934069365cffd4f033af0b6"
+    },
+    {
+      "source": "figures/v26_2/wake_dipy_0p4mm_v26_2.png",
+      "release": "Plots/wake_dipy_0p4mm_v26_2.png",
+      "size": 95721,
+      "sha256": "d832063aaf976b6ca2a3f5db0b8230f1271615d8e2d7148483e92833e33174f3"
+    },
+    {
+      "source": "figures/v26_2/wake_long_0p4mm_v26_2.png",
+      "release": "Plots/wake_long_0p4mm_v26_2.png",
+      "size": 78704,
+      "sha256": "d5430110c8e87a761dca9ccafa993ed384d04327ac193ca1afffcd6f2ade4597"
+    },
+    {
+      "source": "figures/v26_2/wake_total_0p4mm_v26_2.png",
+      "release": "Plots/wake_total_0p4mm_v26_2.png",
+      "size": 188976,
+      "sha256": "a45db74a85601af62b41cbb404de6d9dadc20015bb05ff5da21977e7a5e3f2ea"
+    },
+    {
+      "source": "figures/v26_2/z_dipx_im_components_only_v26_2.png",
+      "release": "Plots/z_dipx_im_components_only_v26_2.png",
+      "size": 283027,
+      "sha256": "a05ec7c282315e8e7674d11e32f5a6042485f31bae3dd63bdff5e63f72b7e0e3"
+    },
+    {
+      "source": "figures/v26_2/z_dipx_im_total_v26_2.png",
+      "release": "Plots/z_dipx_im_total_v26_2.png",
+      "size": 328527,
+      "sha256": "d9e6f741402c53e7135cbc3f94da81c99244b26b9aa20523149cfd480789530c"
+    },
+    {
+      "source": "figures/v26_2/z_dipx_re_components_only_v26_2.png",
+      "release": "Plots/z_dipx_re_components_only_v26_2.png",
+      "size": 284473,
+      "sha256": "7ae2a8cb9672d1208a7e9e3778f3651a6c433edb3f4b3e02c7bd726f2937e422"
+    },
+    {
+      "source": "figures/v26_2/z_dipx_re_total_v26_2.png",
+      "release": "Plots/z_dipx_re_total_v26_2.png",
+      "size": 330367,
+      "sha256": "2b293ce79383bd2581859d0c2edf7df208d707cec2253291783b3ea177b4f56b"
+    },
+    {
+      "source": "figures/v26_2/z_dipy_im_components_only_v26_2.png",
+      "release": "Plots/z_dipy_im_components_only_v26_2.png",
+      "size": 272049,
+      "sha256": "246066215be90b2392ac7352962dba42b97f02197b61d9c57eac61a97fc56bf7"
+    },
+    {
+      "source": "figures/v26_2/z_dipy_im_total_v26_2.png",
+      "release": "Plots/z_dipy_im_total_v26_2.png",
+      "size": 315615,
+      "sha256": "7785f3c66501abb12b19a00d077a6bad32ffa2e699657f2aa4b9be02417232d0"
+    },
+    {
+      "source": "figures/v26_2/z_dipy_re_components_only_v26_2.png",
+      "release": "Plots/z_dipy_re_components_only_v26_2.png",
+      "size": 282552,
+      "sha256": "fa111e59a92c19ae49c7d335a9ae619922a78eb983d57e48c484bcb90191c473"
+    },
+    {
+      "source": "figures/v26_2/z_dipy_re_total_v26_2.png",
+      "release": "Plots/z_dipy_re_total_v26_2.png",
+      "size": 329288,
+      "sha256": "193d6a84e7e0f7575f592c7512616f0b23b38e9d8d76ce1c659a410edf0dd858"
+    },
+    {
+      "source": "figures/v26_2/z_long_im_components_only_v26_2.png",
+      "release": "Plots/z_long_im_components_only_v26_2.png",
+      "size": 192286,
+      "sha256": "62cb78cc13682ca1bfda08c829d43f0310e4fbb0cf61f0a88ce907812588f99f"
+    },
+    {
+      "source": "figures/v26_2/z_long_im_total_v26_2.png",
+      "release": "Plots/z_long_im_total_v26_2.png",
+      "size": 218799,
+      "sha256": "6c68780a6699b4a8f5d63af3f1824b2ab06f3adfb28a0d1fbca5931012619c8e"
+    },
+    {
+      "source": "figures/v26_2/z_long_re_components_only_v26_2.png",
+      "release": "Plots/z_long_re_components_only_v26_2.png",
+      "size": 211477,
+      "sha256": "f8c8543227af2d47a308012941212b38f1ca4d8919593f976f3fad69afa6f98b"
+    },
+    {
+      "source": "figures/v26_2/z_long_re_total_v26_2.png",
+      "release": "Plots/z_long_re_total_v26_2.png",
+      "size": 243796,
+      "sha256": "7707a3aa6fe8ea4fd0864353c2f0a3a0b8860a016a917fce983d07baed002b79"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100.txt",
+      "size": 33338,
+      "sha256": "55d52b709d0f3467861428b8051bbfa508088d5ac1a838422807f6bb52483396"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_fully_decayed.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_fully_decayed.txt",
+      "size": 10084830,
+      "sha256": "cc6655ea035687c0979642231e78fb8294dadf85ba21561c66120a6d115582b9"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_magnitude_residual.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_magnitude_residual.txt",
+      "size": 75539,
+      "sha256": "7a8666423a5e205103113ddf6bc0a61abc6cb702254be27111fa08682684e216"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_partial100m.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixedQ_localMagnitude_V1-V2_partial100m.txt",
+      "size": 10133615,
+      "sha256": "e2fb70160bf6df1bbf5c5a1c78bf19ffb934dd696a678984cbae823d1b43e95b"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_fully_decayed.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_fully_decayed.txt",
+      "size": 10085754,
+      "sha256": "6e0b63da332317e1ca66411e4d8421e590f640db35a9f323da0c6a50b3bb339f"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_partial100m.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_partial100m.txt",
+      "size": 10091812,
+      "sha256": "1377a2cbfc446eedcf3b4a1167d429f1e629aecace82b948c485c5e52843afff"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_residual.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_fixed_fQ_amplitudes_V1-V2_residual.txt",
+      "size": 101277,
+      "sha256": "8167e0733dba10aa0c7fb23074dcef754ac4f62088f7d71cc1075337b5e9f7b1"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_iddefix_multimode_fully_decayed.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_iddefix_multimode_fully_decayed.txt",
+      "size": 6053002,
+      "sha256": "a2f0e17e897b38218ec75d16906af9d84ff44ba3c8fd9b7582d367592845feef"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_iddefix_multimode_partial100m.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_iddefix_multimode_partial100m.txt",
+      "size": 6080887,
+      "sha256": "fca8eee0f29d56ca471ca96880b0db0a58e8b26a43275b5ac7fe6af78ec14e7c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_iddefix_v9_deconvolved_from_wake.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_iddefix_v9_deconvolved_from_wake.txt",
+      "size": 101080,
+      "sha256": "90b817350fe86d5ba643202b1d280dc0df6971fd54053cc0c5147baf0bc1b7e6"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_iddefix_v9_fully_decayed.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_iddefix_v9_fully_decayed.txt",
+      "size": 8069224,
+      "sha256": "d2ed9ec2ae81cefcea0b77e00949a3774d1fee3d47c681b41a29c6795c31d3d1"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single800mhz_wake100_iddefix_v9_partial100m_fit.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single800mhz_wake100_iddefix_v9_partial100m_fit.txt",
+      "size": 8106390,
+      "sha256": "d6e4c3040e74c587027c2852c4bfa06f0b5b8b8e406db831197b34c17f50075f"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipx_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_dipx_3mm.txt",
+      "size": 200107,
+      "sha256": "5048e787bb1da2a2fab976228b22fcbeb456d4d881ecc6d932f45cccb3cbad43"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipx_filter_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_dipx_filter_3mm.txt",
+      "size": 200059,
+      "sha256": "4f27a54da892bb6fcd6e8c66b6067e94c6d9e4791de1be5890e3e59d49462c8d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipy_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_dipy_3mm.txt",
+      "size": 200107,
+      "sha256": "5048e787bb1da2a2fab976228b22fcbeb456d4d881ecc6d932f45cccb3cbad43"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipy_filter_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_dipy_filter_3mm.txt",
+      "size": 200059,
+      "sha256": "4f27a54da892bb6fcd6e8c66b6067e94c6d9e4791de1be5890e3e59d49462c8d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_long_10mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_long_10mm.txt",
+      "size": 40138,
+      "sha256": "7dfd23616147c1464a6f8b5a3e5a3b3576f9c6a70f6f62859271af3542ee6099"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_long_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_long_3mm.txt",
+      "size": 200444,
+      "sha256": "5104cb828aac7d09c7f45be95eb8516e9ad2da310cda4923e7458108027c101c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_long_filter_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_long_filter_3mm.txt",
+      "size": 200438,
+      "sha256": "d08c3d326fe378d7ded5dadf6eec05ce55a1df78e218a2c777a41dfe0739a9e1"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_trans_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/rf_cavities/Z_single_rf_cavity_trans_3mm.txt",
+      "size": 200107,
+      "sha256": "5048e787bb1da2a2fab976228b22fcbeb456d4d881ecc6d932f45cccb3cbad43"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_dipx_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_dipx_3mm.txt",
+      "size": 197008,
+      "sha256": "9342cab87561ebd9876edfc53f43739d3f8a3e49c06acf5810e98ef750d05e0d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_dipy_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_dipy_3mm.txt",
+      "size": 197008,
+      "sha256": "9342cab87561ebd9876edfc53f43739d3f8a3e49c06acf5810e98ef750d05e0d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long.txt",
+      "size": 195754,
+      "sha256": "378c03917d0d6d313d0e9cbdea177cdc1de9d72120a757da916bf60cdcfae633"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long0.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long0.txt",
+      "size": 196954,
+      "sha256": "bc23c84f124a0ac3ba5dfe7c8f14d00e1f8dd8ac44ed353660c8ba4c72cba8a5"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long1.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long1.txt",
+      "size": 39196,
+      "sha256": "b063f86dc10fe9325611b0189831177214b18f751c32fcff7c259026e0dfda94"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long_3mm.txt",
+      "size": 195715,
+      "sha256": "b806579320fc320e54e769320c8bef8efac8ba9e7db8e1fe93439cf803af965c"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long_collider.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long_collider.txt",
+      "size": 39372,
+      "sha256": "d195d8607ad11d85774b9d6c9a35c7c8b42f81232128e6eaeebf2f0f0462c069"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long_raw.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long_raw.txt",
+      "size": 195726,
+      "sha256": "dd0768b5ea92f0a9dbce131af0752cf076c4b42db24931217de1b972a7a53779"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long_raw_collider.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long_raw_collider.txt",
+      "size": 196630,
+      "sha256": "2767e46df56d526943710b64fff96d9bc7fd1a620d0013204e82cd0bb1312488"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_long_smooth_collider.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_long_smooth_collider.txt",
+      "size": 196591,
+      "sha256": "30c2e06897740ff41c41692c151905fb9bed72ac67cb991d5f3aec429e36e58a"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_trans01.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_trans01.txt",
+      "size": 196462,
+      "sha256": "e2b00313ae28c9d509769f684b2520cfe0810e29eb77e7f280dba661924031f1"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bpm/Z_bpm_trans_3mm.txt",
+      "release": "Simulation_files/SourceImpedances/bpm/Z_bpm_trans_3mm.txt",
+      "size": 197008,
+      "sha256": "9342cab87561ebd9876edfc53f43739d3f8a3e49c06acf5810e98ef750d05e0d"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bellows/Z_bellows_dipx.txt",
+      "release": "Simulation_files/SourceImpedances/bellows/Z_bellows_dipx.txt",
+      "size": 195992,
+      "sha256": "9edeadafddbd0131949df0b4db7abc56f59852a1b5bcfa7d7b1c4c44cc266c7f"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bellows/Z_bellows_dipy.txt",
+      "release": "Simulation_files/SourceImpedances/bellows/Z_bellows_dipy.txt",
+      "size": 195501,
+      "sha256": "26193ae98f09b55813a951b4be769d928c37823d48dd1610fc595db452df2b54"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/bellows/Z_bellows_long.txt",
+      "release": "Simulation_files/SourceImpedances/bellows/Z_bellows_long.txt",
+      "size": 195360,
+      "sha256": "578d46a878d6baaf418957567fa3c5e427a19f3066a867933bc79250e403877b"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/optics/v26_2/heb_ring_z.tfs",
+      "release": "Simulation_files/Optics/heb_ring_z.tfs",
+      "size": 14949400,
+      "sha256": "5b736bb4e586e93aadc0f206d2222051a6d4494209c275977e03fd929fc9ace9"
+    },
+    {
+      "source": "fcc_ee_booster_pywit_model/data/optics/v26_2/lattices/z/heb_ring_z.json",
+      "release": "Simulation_files/Optics/heb_ring_z.json",
+      "size": 9481691,
+      "sha256": "9fe33c8914103d1905e4b96a02988f7cb988419486e7019da6bb1d6ddad10c84"
+    },
+    {
+      "source": "Example/HEB_V26_2_native_PyWIT_Model_and_budget_V26_2_EXPORTS.ipynb",
+      "release": "Utilities&Docu/HEB_V26_2_native_PyWIT_Model_and_budget_V26_2_EXPORTS.ipynb",
+      "size": 2774778,
+      "sha256": "55913d7c6127b3ee5a2b72179c84f1a31c0778b5dda5c38c80f98ed05a0ede8d"
+    }
+  ],
+  "source_tree": "local checkout",
+  "created_UTC": "2026-10-28T10:20:11.014736+00:00"
+}
