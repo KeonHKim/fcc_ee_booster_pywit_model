@@ -1,0 +1,72 @@
+{
+  "model": "Option 1: full HOM1+HOM2+HOM3 (no FM, no CST broadband)",
+  "source_fit": "v14/v15 fixed-Q local magnitude fit; 100m CST wake, 10mm bunch",
+  "fit_parameters": [
+    {
+      "name": "FM",
+      "fit_type": "magnitude",
+      "Q_fixed": 11000000.0,
+      "f_fit_hz": 801601938.0171499,
+      "Rs_Ohm": 3171768361.953538,
+      "R_over_Q_Ohm": 576.685156718825,
+      "relative_local_residual": 0.1187656977839108,
+      "at_frequency_boundary": false
+    },
+    {
+      "name": "HM1_1p494",
+      "fit_type": "magnitude",
+      "Q_fixed": 3800.0,
+      "f_fit_hz": 1496997893.503465,
+      "Rs_Ohm": 87943.55249334774,
+      "R_over_Q_Ohm": 46.28608025965671,
+      "relative_local_residual": 0.5642431417506161,
+      "at_frequency_boundary": true
+    },
+    {
+      "name": "HM2_2p368",
+      "fit_type": "magnitude",
+      "Q_fixed": 4900.0,
+      "f_fit_hz": 2367363946.5716214,
+      "Rs_Ohm": 66927.09975272682,
+      "R_over_Q_Ohm": 27.31718357254156,
+      "relative_local_residual": 0.09878241553697321,
+      "at_frequency_boundary": false
+    },
+    {
+      "name": "HM3_3p38",
+      "fit_type": "magnitude",
+      "Q_fixed": 8200.0,
+      "f_fit_hz": 3381681017.5116153,
+      "Rs_Ohm": 34159.405395125475,
+      "R_over_Q_Ohm": 8.331562291494018,
+      "relative_local_residual": 0.33178337800730756,
+      "at_frequency_boundary": false
+    }
+  ],
+  "n_cavities_in_ring": 112,
+  "source_file_normalization": "SINGLE CAVITY: multiply by 112 only in the HEB model",
+  "frequency_grid": "adaptive with dense windows around all HOMs, 0..50 GHz",
+  "wake_data": "V/pC per cavity, CST longitudinal sign = -(IDDEFIX V/C)/1e12",
+  "data_files": {
+    "impedance_per_cavity": "Z_single_rf_cavity_long_IDDEFIX_HOM_only_ADAPTIVE_0to50GHz.txt",
+    "point_wake_per_cavity": "W_single_rf_cavity_long_IDDEFIX_HOM_only_POINT_0to200mm.txt",
+    "gaussian_wake_potential_per_cavity": {
+      "0.4mm": "W_single_rf_cavity_long_IDDEFIX_HOM_only_sigma0.4mm.txt",
+      "4mm": "W_single_rf_cavity_long_IDDEFIX_HOM_only_sigma4mm.txt"
+    },
+    "fitted_parameters": "RF_IDDEFIX_HOM_only_fitted_parameters.csv"
+  },
+  "validation": {
+    "kappa_4mm_Z_V_per_pC_per_cavity": 0.24562851476445413,
+    "kappa_4mm_wake_V_per_pC_per_cavity": 0.24562842527761555,
+    "kappa_relative_difference": 3.643177937379823e-07
+  },
+  "warnings": [
+    "DO NOT feed the 112-cavity impedance into a model that multiplies by 112.",
+    "DO NOT overwrite the original RF/CST source without independent validation.",
+    "The HEB default 10MHz budget sampling, and especially 40MHz bunch-wake sampling, MISS high-Q HOM peaks.",
+    "For wake-budget studies, use direct analytical bunch-wake file, or evaluate resonator Z adaptively in inverse transform.",
+    "FM is omitted intentionally; no broadband contribution or unresolved modes are modeled.",
+    "This manifest covers the longitudinal exports. See RF_IDDEFIX_transverse_budget_manifest.json for dipoles."
+  ]
+}

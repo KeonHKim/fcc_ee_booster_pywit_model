@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "sigma_z_m": 0.0004,
+  "impedance_units": "GHz, Ohm/m per cavity",
+  "wake_units": "mm, V/(pC mm) per cavity",
+  "fit_status": "provisional candidate from filtered CST samples",
+  "fit_method": "signed Re/Im local resonator shape with affine background, global nonnegative Rs",
+  "wake_methods": {
+    "iddefix_fit": "analytic causal resonators convolved with the 0.4 mm Gaussian",
+    "cst_native": "0\u201350 GHz native-grid trapezoidal integral of (-i Z) times Gaussian spectrum"
+  },
+  "planes": {
+    "x": {
+      "cst_native": {
+        "impedance": {
+          "file": "Z_single_rf_cavity_dipx_filter_3mm.txt",
+          "sha256": "4f27a54da892bb6fcd6e8c66b6067e94c6d9e4791de1be5890e3e59d49462c8d"
+        },
+        "wake": {
+          "file": "W_single_rf_cavity_dipx_CST_native_sigma0.4mm.txt",
+          "sha256": "dcfe8b78211129be629bb23f7fdb1e219b2b3c8538c815901eb5329e8dba1395"
+        }
+      },
+      "iddefix_fit": {
+        "impedance": {
+          "file": "Z_single_rf_cavity_dipx_IDDEFIX_ADAPTIVE_0to50GHz.txt",
+          "sha256": "80162a456548e180809b6652877d535505f49a9efa472ec1223569035fe71043"
+        },
+        "wake": {
+          "file": "W_single_rf_cavity_dipx_IDDEFIX_sigma0.4mm.txt",
+          "sha256": "3392c1c43a4efe87a4776f36471ab4df5b6b94e03f255ac5d2e7353463afdfba"
+        }
+      },
+      "native_df_Hz": 10000000.0,
+      "relative_complex_residual": 0.9485399864968155,
+      "fitted_modes": 14,
+      "analytic_check_max_abs_V_per_pC_mm": 3.2959746043559335e-17,
+      "native_refined_max_abs_V_per_pC_mm": 7.154482319082778e-08
+    },
+    "y": {
+      "cst_native": {
+        "impedance": {
+          "file": "Z_single_rf_cavity_dipy_filter_3mm.txt",
+          "sha256": "4f27a54da892bb6fcd6e8c66b6067e94c6d9e4791de1be5890e3e59d49462c8d"
+        },
+        "wake": {
+          "file": "W_single_rf_cavity_dipy_CST_native_sigma0.4mm.txt",
+          "sha256": "dcfe8b78211129be629bb23f7fdb1e219b2b3c8538c815901eb5329e8dba1395"
+        }
+      },
+      "iddefix_fit": {
+        "impedance": {
+          "file": "Z_single_rf_cavity_dipy_IDDEFIX_ADAPTIVE_0to50GHz.txt",
+          "sha256": "80162a456548e180809b6652877d535505f49a9efa472ec1223569035fe71043"
+        },
+        "wake": {
+          "file": "W_single_rf_cavity_dipy_IDDEFIX_sigma0.4mm.txt",
+          "sha256": "3392c1c43a4efe87a4776f36471ab4df5b6b94e03f255ac5d2e7353463afdfba"
+        }
+      },
+      "native_df_Hz": 10000000.0,
+      "relative_complex_residual": 0.9485399864968155,
+      "fitted_modes": 14,
+      "analytic_check_max_abs_V_per_pC_mm": 3.2959746043559335e-17,
+      "native_refined_max_abs_V_per_pC_mm": 7.154482319082778e-08
+    }
+  },
+  "fit_parameters": {
+    "file": "RF_IDDEFIX_transverse_fitted_parameters.csv",
+    "sha256": "2bb08b1d363697beba9047c798cc15c0abb1f8dade5261380b8a881bf2a1cbf7"
+  }
+}
