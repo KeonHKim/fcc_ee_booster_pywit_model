@@ -1,0 +1,152 @@
+{
+  "RF_long_source": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_long_IDDEFIX_HOM_only_ADAPTIVE_0to50GHz.txt",
+  "RF_long_bunch_wake_source": "fcc_ee_booster_pywit_model/data/rf_cavities/W_single_rf_cavity_long_IDDEFIX_HOM_only_sigma0.4mm.txt",
+  "RF_long_components": "full HOM1, HOM2, HOM3; 800MHz fundamental and broadband omitted",
+  "RF_transverse": "iddefix_fit",
+  "RF_transverse_source_files": {
+    "x": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipx_IDDEFIX_ADAPTIVE_0to50GHz.txt",
+    "y": "fcc_ee_booster_pywit_model/data/rf_cavities/Z_single_rf_cavity_dipy_IDDEFIX_ADAPTIVE_0to50GHz.txt"
+  },
+  "RF_transverse_bunch_wakes": {
+    "x": "fcc_ee_booster_pywit_model/data/rf_cavities/W_single_rf_cavity_dipx_IDDEFIX_sigma0.4mm.txt",
+    "y": "fcc_ee_booster_pywit_model/data/rf_cavities/W_single_rf_cavity_dipy_IDDEFIX_sigma0.4mm.txt"
+  },
+  "RF_transverse_manifest": "fcc_ee_booster_pywit_model/data/rf_cavities/RF_IDDEFIX_transverse_budget_manifest.json",
+  "RF_transverse_budget_points": {
+    "x": 8599,
+    "y": 8599
+  },
+  "RF_ring_multipliers": {
+    "long": 112.0,
+    "x": 181.79225490742525,
+    "y": 172.1225022574451
+  },
+  "stripline_source_files": {
+    "long": "fcc_ee_booster_pywit_model/data/kickers/Z_long_stripkickers26.txt",
+    "x": "fcc_ee_booster_pywit_model/data/kickers/Z_dipx_stripkickers26.txt",
+    "y": "fcc_ee_booster_pywit_model/data/kickers/Z_dipy_stripkickers26.txt"
+  },
+  "stripline_source_wake_reference": "fcc_ee_booster_pywit_model/data/kickers/W_stripkickers26.txt",
+  "stripline_wake_reference_used_in_budget": false,
+  "assumption_Coll_ring_impedance_already_integrates_12": true,
+  "assumed_coll_units": 12,
+  "HEB_damper_count": 2,
+  "active_m_per_kicker": 1.0,
+  "HEB_damper_positions": [
+    79151.6315,
+    79476.8315
+  ],
+  "damper_weights": {
+    "long": 0.16666666666666666,
+    "x": 0.12399898929782183,
+    "y": 0.462787088808902
+  },
+  "warning_normalization": "Collider per-unit extraction by /12 remains to be confirmed with original CST authors",
+  "RF_wake_method": {
+    "long": "analytical HOM-only 0.4 mm bunch potential",
+    "dipoles": "analytic causal resonators convolved with the 0.4 mm Gaussian"
+  },
+  "RF_loss_factor_4mm_V_per_pC_112cav": 27.51039365328387,
+  "case_tag": "v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20",
+  "description": "FCC-ee HEB V26.2 LCC extraction correction with rough NEG/Cu and IDDEFIX RF",
+  "notebook": "Example/HEB_V26_2_LCC_Extraction_Budget_and_Wake.ipynb",
+  "date_utc": "2026-11-20T19:14:35.980119+00:00",
+  "computation": "published_components",
+  "reference_case": "v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles",
+  "reference_inputs_sha256": {
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_EXPORT_MANIFEST.json": "109ae3fa1f8dfcc00678db1d37fa24cb1b8a24123de06cf6f3efb7df91a9b00d",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_inventory.csv": "7a633c950f0492fc907043776c84ac2ee44df2741a1877d01d24a242f2ad7519",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_source_provenance.csv": "27898fc13573fcc8c7fe118138d5d8c0aba8f2144f6747474d184c38528436fc",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_Damper_locations.csv": "ca542ab78b8d62f13b9ab53fee8e2a2b59ec77b6b1780f0b52bd2c512ac35d4f",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_wakes_long_sigma0p4mm.csv": "45a39b45c343476fad488b57e5baa699f59dcf50ef4bc3cbb3c22e46c78549d1",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_wakes_dipx_sigma0p4mm.csv": "dd6104997a884dd6f1d24b0b6d2a5c1cbbb1dc74a65a0d681c32407134d21ec0",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_wakes_dipy_sigma0p4mm.csv": "5dc33282850d9a4f7bca08082f49c105485588dcfe023133e810041b8b1821da",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_budget_long.csv": "3094fe1a36e86b42b7154f41ac57d46c2daed9256e06620d67baf4cabbc8cdd0",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_budget_dipx.csv": "d9843d47df7692fec636afb451201de2be443db186e0340ae39e8714c4b3e7f7",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_component_budget_dipy.csv": "04254b330eb74923f01a6333e9f7ed64720f1926f3282804d15506c3e4f8f8ff",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_adaptive_long_budget.csv": "8925f51ecd319dd9cde7a34477b3649f2b301fb342ca38941e313d9bde6ee967"
+  },
+  "optics": "fcc_ee_booster_pywit_model/data/optics/v26_2/heb_ring_z.tfs",
+  "optics_sha256": "5b736bb4e586e93aadc0f206d2222051a6d4494209c275977e03fd929fc9ace9",
+  "extraction_sections": 2,
+  "extraction_modules_per_section": 10,
+  "extraction_module_count": 20,
+  "extraction_magnetic_length_per_module_m": 0.418,
+  "extraction_total_magnetic_length_m": 8.36,
+  "extraction_collider_reference_length_m": 20.0,
+  "extraction_longitudinal_multiplier": 0.418,
+  "extraction_module_s_positions_m": null,
+  "extraction_transverse_weighting": "ring average, provisional",
+  "rw_circumference_m": 90644.83599996046,
+  "rw_bellows_excluded_m": 1500.0,
+  "rw_wigglers_excluded_m": 60.300000000000004,
+  "rw_previous_pipe_length_m": 89080.35599996046,
+  "rw_pipe_length_m": 89076.17599996045,
+  "rw_scale_against_reference": 0.9999530760743703,
+  "rw_model": {
+    "substrate": "Cu",
+    "NEG_thickness_m": 1.5e-07,
+    "roughness_Rq_m": 3e-07,
+    "pipe_radius_m": 0.03,
+    "gold_reference_q": -2.1043
+  },
+  "wake_sigma_m": 0.0004,
+  "wake_df_Hz_for_nonRF_and_Damper": 100000000.0,
+  "wake_fmax_Hz": 10000000000000.0,
+  "wake_window_mm": [
+    -3.0,
+    20.0
+  ],
+  "wake_points": 1535,
+  "frequency_units": "GHz",
+  "impedance_units_long": "Ohm",
+  "impedance_units_dipoles": "Ohm/m",
+  "wake_units_long": "V/pC",
+  "wake_units_dipoles": "V/pC/mm",
+  "ecsv_time_units": "ns",
+  "wake_file": "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_sigma0p4mm_PyHEADTAIL.ecsv",
+  "wake_sha256": "0e3b1d3ef42472e942d0c7bd46fc2984a7f1091df43c55b155c34a81e616b8aa",
+  "wake_comparison": [
+    {
+      "Plane": "long",
+      "Wake units": "V/pC",
+      "Peak |previous total|": 57379.968886417424,
+      "Peak |new total|": 57378.044950765,
+      "Max |new minus previous|": 2.7235835188475903
+    },
+    {
+      "Plane": "dipx",
+      "Wake units": "V/(pC mm)",
+      "Peak |previous total|": 89.78431944677601,
+      "Peak |new total|": 89.93354588577967,
+      "Max |new minus previous|": 0.19853494136945304
+    },
+    {
+      "Plane": "dipy",
+      "Wake units": "V/(pC mm)",
+      "Peak |previous total|": 89.79401030427145,
+      "Peak |new total|": 90.05530431720956,
+      "Max |new minus previous|": 0.3704365855592924
+    }
+  ],
+  "saved_files": [
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/Z_total_long_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/W_total_long_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_budget_long.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_long_sigma0p4mm.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/Z_total_dipx_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/W_total_dipx_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_budget_dipx.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_dipx_sigma0p4mm.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/Z_total_dipy_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/W_total_dipy_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_budget_dipy.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_dipy_sigma0p4mm.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/Z_total_long_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_ADAPTIVE_0to50GHz.txt",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_adaptive_long_budget.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_inventory.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_source_provenance.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_Damper_locations.csv",
+    "fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_sigma0p4mm_PyHEADTAIL.ecsv"
+  ]
+}
