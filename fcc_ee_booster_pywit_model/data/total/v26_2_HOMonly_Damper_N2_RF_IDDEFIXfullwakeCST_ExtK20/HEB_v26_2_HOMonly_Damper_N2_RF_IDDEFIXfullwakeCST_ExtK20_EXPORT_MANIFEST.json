@@ -1,0 +1,178 @@
+{
+  "stripline_source_files": {
+    "long": "fcc_ee_booster_pywit_model/data/kickers/Z_long_stripkickers26.txt",
+    "x": "fcc_ee_booster_pywit_model/data/kickers/Z_dipx_stripkickers26.txt",
+    "y": "fcc_ee_booster_pywit_model/data/kickers/Z_dipy_stripkickers26.txt"
+  },
+  "stripline_source_wake_reference": "fcc_ee_booster_pywit_model/data/kickers/W_stripkickers26.txt",
+  "stripline_wake_reference_used_in_budget": false,
+  "assumption_Coll_ring_impedance_already_integrates_12": true,
+  "assumed_coll_units": 12,
+  "HEB_damper_count": 2,
+  "active_m_per_kicker": 1.0,
+  "HEB_damper_positions": [
+    79151.6315,
+    79476.8315
+  ],
+  "damper_weights": {
+    "long": 0.16666666666666666,
+    "x": 0.12399898929782183,
+    "y": 0.462787088808902
+  },
+  "warning_normalization": "Collider per-unit extraction by /12 remains to be confirmed with original CST authors",
+  "extraction_sections": 2,
+  "extraction_modules_per_section": 10,
+  "extraction_module_count": 20,
+  "extraction_magnetic_length_per_module_m": 0.418,
+  "extraction_total_magnetic_length_m": 8.36,
+  "extraction_collider_reference_length_m": 20.0,
+  "extraction_longitudinal_multiplier": 0.418,
+  "extraction_module_s_positions_m": null,
+  "extraction_transverse_weighting": "ring average, provisional",
+  "rw_circumference_m": 90644.83599996046,
+  "rw_bellows_excluded_m": 1500.0,
+  "rw_wigglers_excluded_m": 60.300000000000004,
+  "rw_previous_pipe_length_m": 89080.35599996046,
+  "rw_pipe_length_m": 89076.17599996045,
+  "rw_scale_against_reference": 0.9999530760743703,
+  "rw_model": {
+    "substrate": "Cu",
+    "NEG_thickness_m": 1.5e-07,
+    "roughness_Rq_m": 3e-07,
+    "pipe_radius_m": 0.03,
+    "gold_reference_q": -2.1043
+  },
+  "case_tag": "v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20",
+  "date_utc": "2026-11-23T19:11:08.481520+00:00",
+  "reference_case": "v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20",
+  "description": "ExtK20 component sums with longitudinal HOM 1–3 and the complete-CST-wake transverse fit",
+  "optics": "optics/v26_2/heb_ring_z.tfs",
+  "optics_sha256": "5b736bb4e586e93aadc0f206d2222051a6d4494209c275977e03fd929fc9ace9",
+  "baseline_inputs_sha256": {
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_EXPORT_MANIFEST.json": "24a15b602a679c2adbf907a0ee8ff65f6f0ebd6cdd91e97a660e4597804ac89c",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_inventory.csv": "b5e0f2414b21ac3ab9743ea4f5e9f34b70976c0e104392aeb964e1a450ed590b",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_source_provenance.csv": "ddb7057a792b1a9ab95604178562753d8a3fe878a7277052b09f86816767a2cb",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_Damper_locations.csv": "ca542ab78b8d62f13b9ab53fee8e2a2b59ec77b6b1780f0b52bd2c512ac35d4f",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_adaptive_long_budget.csv": "442975d6f18c8275d826784a1184d5d95f424861467f45a167b55a30e4338973",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_budget_dipx.csv": "99db731173a2e5b83c055c0867590ca59f50ee6f46545eaefc327f2291248189",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_budget_dipy.csv": "cc7e8a5c3a649695e1e004878235a5c44db94ed392f672cf1f14de1e46e58052",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_long_sigma0p4mm.csv": "bfce9a0be12f8fc2c6fb2a9b42b57a041c58da026253feba91803285c4f59d9e",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_dipx_sigma0p4mm.csv": "1f9eb1a533393d3f52f5c9506f853ae0d07622644649ae5c121b6565e6961547",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_component_wakes_dipy_sigma0p4mm.csv": "a046a048f8f3b9c0d81a100031423dabee5a512a0ef3746f0129089132ea5216",
+    "total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20/HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles_ExtK20_sigma0p4mm_PyHEADTAIL.ecsv": "0e3b1d3ef42472e942d0c7bd46fc2984a7f1091df43c55b155c34a81e616b8aa"
+  },
+  "RF_manifest_sha256": "40fbe579f379996a19f1435a318dad9e6bd894f368d2eebb6a3e7e5b95057a45",
+  "RF_source_inputs": {
+    "longitudinal_100m": {
+      "path": "rf_cavities/Wp_single800mhz_wake100.txt",
+      "sha256": "4a750a0a8db70f1afa60d9d13aa01ac7cea67a253d6a736a6852ac38da2eb08f"
+    },
+    "transverse_normal": {
+      "path": "rf_cavities/W_single_rf_cavity_trans_3mm.txt",
+      "sha256": "fe6aaf7b9b606d49c9ca60fc2950918962bb6bf4cee20a7b6363992ae51cbdfc"
+    },
+    "transverse_filtered": {
+      "path": "rf_cavities/W_single_rf_cavity_trans_filter_3mm.txt",
+      "sha256": "27485fb617e3fd81bc919b7c4ca56ea2b09ef802b48add9c5976669a208c4761"
+    }
+  },
+  "RF_ring_multipliers": {
+    "long": 112.0,
+    "x": 181.79225490742525,
+    "y": 172.1225022574451
+  },
+  "RF_loss_factor_4mm_V_per_pC_112cav": 29.831536898704528,
+  "RF_fit_quality": {
+    "x": {
+      "bunch_spectrum_relative_l2": 0.014824514250314802,
+      "wake_relative_l2": 0.014781152267649063,
+      "wake_length_m": 0.20003881540680998,
+      "active_bound_hits": 0,
+      "fitted_modes": 4
+    },
+    "y": {
+      "bunch_spectrum_relative_l2": 0.014824514250314802,
+      "wake_relative_l2": 0.014781152267649063,
+      "wake_length_m": 0.20003881540680998,
+      "active_bound_hits": 0,
+      "fitted_modes": 4
+    }
+  },
+  "frequency_units": "GHz",
+  "impedance_units": {
+    "long": "Ohm",
+    "x": "Ohm/m",
+    "y": "Ohm/m"
+  },
+  "wake_units": {
+    "long": "V/pC",
+    "x": "V/(pC mm)",
+    "y": "V/(pC mm)"
+  },
+  "wake_sigma_m": 0.0004,
+  "wake_points": 1535,
+  "wake_window_mm": [
+    -2.9979245800000003,
+    19.9961569486
+  ],
+  "wake_df_Hz_for_nonRF_and_Damper": 100000000.0,
+  "wake_fmax_Hz": 10000000000000.0,
+  "reference_element": "ds_cell_exp.235",
+  "beta_budget_m": {
+    "x": 58.582442727440515,
+    "y": 68.97300253394674
+  },
+  "beta_map_m": {
+    "x": 39.24504645,
+    "y": 149.7585035
+  },
+  "map_dipole_multipliers": {
+    "x": 1.4927347022528628,
+    "y": 0.4605615101779295
+  },
+  "ring_wake_file": "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_sigma0p4mm_PyHEADTAIL.ecsv",
+  "ring_wake_longitudinal_convention": "CST",
+  "wake_file": "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_sigma0p4mm_ds_cell_exp235_positive_loss.ecsv",
+  "wake_sha256": "2088047f86d8523646d286313c63396b0cffbe5b4bead02358d09a489446ce5d",
+  "wake_longitudinal_convention": "positive loss",
+  "ecsv_time_units": "ns",
+  "mean_wake_kick_check": {
+    "sigma_z_m": 0.004,
+    "population": 120000000000.0,
+    "mean_energy_change_MeV": -6.0371627416043605
+  },
+  "publication": {
+    "base_commit": "b29f88c79515d92172f678cf56ca8bc449ca04e6",
+    "RF_notebook": "Example/FCC_ee_HEB_RF_IDDEFIX_Both_Planes_Full_Wake.ipynb",
+    "budget_notebook": "Example/HEB_V26_2_ExtK20_Full_Wake_RF_Budget_and_Wake.ipynb",
+    "generated_RF_manifest": "rf_cavities/IDDEFIX_fullwake_CST/RF_IDDEFIX_fullwake_CST_manifest.json",
+    "impedance_tables": {
+      "Z_total_dipx_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt.gz": {
+        "uncompressed_name": "Z_total_dipx_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt",
+        "sha256": "c874d747cb3d4c28fd097a1707ef7622ba46bec2ffec12c90c3b9ed9e073dd86"
+      },
+      "Z_total_dipy_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt.gz": {
+        "uncompressed_name": "Z_total_dipy_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt",
+        "sha256": "a91b02477986de438f9eec51fca4550b12d05c31a932488e33d2da87aa5e0215"
+      },
+      "Z_total_long_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_ADAPTIVE_0to50GHz.txt.gz": {
+        "uncompressed_name": "Z_total_long_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_ADAPTIVE_0to50GHz.txt",
+        "sha256": "696720ed73a080345539f995db793db257619ba28ee8445e8f19d1f508ec80e4"
+      }
+    }
+  },
+  "saved_files_sha256": {
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_Damper_locations.csv": "ca542ab78b8d62f13b9ab53fee8e2a2b59ec77b6b1780f0b52bd2c512ac35d4f",
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_inventory.csv": "b5e0f2414b21ac3ab9743ea4f5e9f34b70976c0e104392aeb964e1a450ed590b",
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_loss_and_kick_factors.csv": "63e2e158ee61f8ec2f9ef981a37e6b38aaf94de6cae2c3162a5a57c255ed275e",
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_sigma0p4mm_PyHEADTAIL.ecsv": "ac6454baa22259566e85456ef714cee1add9143b7107962c7c610f460dd08318",
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_sigma0p4mm_ds_cell_exp235_positive_loss.ecsv": "2088047f86d8523646d286313c63396b0cffbe5b4bead02358d09a489446ce5d",
+    "HEB_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_source_provenance.csv": "7ca774033bca6699f34131314e4c6ea3cbdc3675c298d6b75d4933bf1a618dd7",
+    "W_total_dipx_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt": "93da24b6203da8d475829347fec03c0ae5d3ff5125bd43bde0b1790cdc344876",
+    "W_total_dipy_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt": "b521168162b35dbb580bf9e45ac7c72862f4ca68d9b8749ebf6e687c1f334a30",
+    "W_total_long_sigma0p4mm_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt": "fa4a801ea604e01408b973ab274afa998d9725fe6bbccbae319230a1013db2e5",
+    "Z_total_dipx_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt.gz": "69f777d02c75bca9d29def0d3427c91830ded93adbf923213152a6c74244de88",
+    "Z_total_dipy_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20.txt.gz": "0758e456ae27fe0043ed7dca8dc4d0753c8079be4fd88db8868e20aeb5e7a709",
+    "Z_total_long_v26_2_HOMonly_Damper_N2_RF_IDDEFIXfullwakeCST_ExtK20_ADAPTIVE_0to50GHz.txt.gz": "79b956048c40a826c34e66b3c3740e5ed35a6e45d3cfe39d168c8fcb2d159403"
+  }
+}

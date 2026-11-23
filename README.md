@@ -2,6 +2,7 @@
 
 | Data | Location |
 | --- | --- |
+| V26.2.1 ExtK20 full-wake RF update | [Fits, ring impedance and tracking wake](docs/v26_2_1_full_wake_rf.md) |
 | V26.2.1 transverse IDDEFIX budget and tracking wake | [Total impedance and wakes](fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2_RF_IDDEFIXdipoles) |
 | Earlier V26.2.1 longitudinal HOM-only RF and damper budget | [Original V26.2.1](fcc_ee_booster_pywit_model/data/total/v26_2_HOMonly_Damper_N2) |
 | Six-component V26.2 baseline | [V26.2 totals](fcc_ee_booster_pywit_model/data/total/v26_2) · [Model assumptions](docs/v26_2_model.md) |
